@@ -9,6 +9,7 @@
     <ul ng-controller="DemoController">
         <li ng-bind="name"></li>
         <li ng-cloak>{{name}}{{age}}</li>
+        <!-- 通过ng-bind-template可以绑定多个数据 -->
         <li ng-bind-template="{{name}}{{age}}"></li>
     </ul>
 

@@ -19,11 +19,11 @@
 	<ul ng-controller="DemoController">
 		<li ng-bind="name"></li>
 		<li>{{name}}</li>
-		<li ng-show="1">ng-show用来显示或隐藏内容的，当值为true时显示</li>
-		<li ng-hide="0">ng-hide用来显示或隐藏内容的，当值为true时隐藏</li>
+		<li ng-show="true">ng-show用来显示或隐藏内容的，当值为true时显示</li>
+		<li ng-hide="false">ng-hide用来显示或隐藏内容的，当值为true时隐藏</li>
 		<li ng-if="1">ng-if用来控制元素是否存在，当值为true时存在</li>
 		<li><img ng-src="{{path}}" alt=""></li>
-		<li ng-class="{red: true, blue: true}">ng-class指令</li>
+		<li ng-class="{red: true, blue: false}">ng-class指令</li>
 		<li><input type="text" ng-disabled="0"></li>
 		<li><input type="text" ng-readonly="1" value="angular"></li>
 		<li><input type="checkbox" ng-checked="1">男</li>
@@ -46,7 +46,7 @@
 
 			// $scope
 
-			$scope.name = 'itcast';
+			$scope.name = 'namenamenamenamenamename';
 
 			$scope.path = './images/author.jpg';
 
