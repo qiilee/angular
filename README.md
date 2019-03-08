@@ -1,4 +1,9 @@
 # angular
+ * angular1现在名字就是[angularjs](https://angularjs.org/) 此为英文版
+    * [中文版地址](http://www.angularjs.net.cn/);
+ * angular2名字是[angular](https://angular.cn);
+ * 现在的话说angular就是2 说angularjs就是1
+
 
 | 名称 | 简介 | 知识点 |
 | ---- | ---- | ---- |
