@@ -11,11 +11,21 @@
 <script>
     angular.module( 'mainApp', [] )
         .controller( 'mainController', function ( $scope, $filter ) {
-            var list = [ 1,1,1,1,1,1,1,1,1,1,1,1,1 ];
+            var list = [ 1,1,1,1 ];
 
             $scope.list = list;
             
         });
+
+        
+        // 在angular中使用ng-repeat时数组中有重复元素 
+        // 解决重复问题的方法就是item in items track by $index
+
+// 打印
+// 1
+// 1
+// 1
+// 1
 
 </script>
 </html>
