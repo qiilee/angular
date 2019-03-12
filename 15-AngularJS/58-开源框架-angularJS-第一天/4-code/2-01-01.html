@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>AngularJS 模块化</title>
 </head>
+
 <body ng-app="Demo">
-	
+
 	<table>
 		<thead>
 			<tr>
@@ -22,7 +24,7 @@
 			</tr>
 		</tbody>
 	</table>
-	
+
 	<script src="./libs/angular.min.js"></script>
 	<script>
 		// 定义一个模块
@@ -34,11 +36,26 @@
 			// $scope 就是 Model 并且空对象
 
 			// 后面数据会来自于后端
-			$scope.stars = [
-				{name: '刘德华', sex: '男', age: 62},
-				{name: '王力宏', sex: '男', age: 40},
-				{name: '周杰伦', sex: '男', age: 39},
-				{name: '小明', sex: '女', age: 12}
+			$scope.stars = [{
+					name: '刘德华',
+					sex: '男',
+					age: 62
+				},
+				{
+					name: '王力宏',
+					sex: '男',
+					age: 40
+				},
+				{
+					name: '周杰伦',
+					sex: '男',
+					age: 39
+				},
+				{
+					name: '小明',
+					sex: '女',
+					age: 12
+				}
 			];
 
 		}]);
@@ -48,5 +65,16 @@
 
 	<!-- 每个模块基于MVC -->
 
+	<!-- 打印 -->
+
+	<!--
+	    姓名	性别	年龄
+		刘德华	男	62
+		王力宏	男	40
+		周杰伦	男	39
+		小明	女	12 
+	-->
+
 </body>
+
 </html>
